@@ -4,7 +4,7 @@ X-Editor 是一款开源，插件化，跨平台，WYSIWYG的Markdown编辑器�
 
 ## Features
   - [ ] WYSIWYG(What You See Is What You Get)
-  - [ ] GFM(Github Flavor Markdown) 规范
+  - [x] GFM(Github Flavor Markdown) 规范
   - [ ] 大纲
   - [ ] `LaTeX`数学公式
   - [ ] 全局搜索内容，全局搜索文件名
@@ -12,7 +12,7 @@ X-Editor 是一款开源，插件化，跨平台，WYSIWYG的Markdown编辑器�
   - [ ] HTML/PDF导出
   - [ ] 兼容格式的Markdown文件导出
   - [ ] Diagram
-    - [ ] [mermaid](https://mermaid-js.github.io/mermaid)
+    - [x] [mermaid](https://mermaid-js.github.io/mermaid)
       - [ ] 支持嵌入[Font-Awesome icons](https://github.com/FortAwesome/Font-Awesome)
     - [ ] [mindmap](https://github.com/gera2ld/markmap)
       - [ ] 支持自动适配页面大小
@@ -53,9 +53,9 @@ git init
 2. Run in host
 ```bash
 # install dependencies
-npm install --save-dev electron
+yarn
 # run xeditor
-npm start
+yarn dev
 ```
 
 # References

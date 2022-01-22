@@ -1,5 +1,5 @@
 import { Col, Input, Row } from 'antd';
-import { marked } from 'marked';
+import { Marked } from './marked/marked'
 import React, { useEffect, useRef, useState } from 'react';
 
 export function App() {
@@ -8,7 +8,7 @@ export function App() {
   const containerRef = useRef<HTMLDivElement>();
 
   useEffect(() => {
-    containerRef.current.innerHTML = marked.parse(input);
+    containerRef.current.innerHTML = Marked(input);
   }, [input]);
 
   return (

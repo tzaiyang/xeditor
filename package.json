@@ -27,12 +27,16 @@
     "@types/lodash": "^4.14.178",
     "@types/marked": "^4.0.1",
     "antd": "^4.18.4",
+    "highlight.js": "^11.4.0",
     "lodash": "^4.17.21",
     "marked": "^4.0.10",
+    "mermaid": "^8.13.10",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/mermaid": "^8.2.7",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
     "@vitejs/plugin-react": "^1.0.7",

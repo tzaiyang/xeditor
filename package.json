@@ -4,7 +4,9 @@
   "description": "xeditor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "start": "electron ."
   },
   "repository": {
@@ -20,7 +22,22 @@
     "url": "https://github.com/tzaiyang/xeditor/issues"
   },
   "homepage": "https://github.com/tzaiyang/xeditor#readme",
+  "dependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/lodash": "^4.14.178",
+    "@types/marked": "^4.0.1",
+    "antd": "^4.18.4",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
-    "electron": "^16.0.7"
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "electron": "^16.0.7",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
   }
 }

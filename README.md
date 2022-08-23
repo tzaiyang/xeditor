@@ -1,5 +1,7 @@
 # X-Editor
 
+> 发现并试用了已有产品[obsidian](https://obsidian.md/)，已基本满足所有需求，此仓库将被归档。
+
 X-Editor 是一款开源，插件化，跨平台，WYSIWYG的Markdown编辑器，和别的同类编辑器不同的是，**我们的目标在于：在实现最基本的GFM规范基础上，为Markdown的图画表示能力提供更多可能，同时支持一键导出兼容GFM规范的Markdown文件**。因此，能将“用，或不用更多的Markdown扩展能力”的选择权交还给用户。
 
 ## Features
